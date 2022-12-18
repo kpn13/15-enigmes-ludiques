@@ -1,4 +1,4 @@
-with open("../data/Enigme1.txt", "r") as f:
+with open("./data/Enigme1.txt", "r") as f:
     ascii_string = f.read()
 
 ascii_codes = ascii_string.split(" ")
